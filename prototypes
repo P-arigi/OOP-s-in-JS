@@ -1,0 +1,7 @@
+Prototype Intro
+Every single function that is created in JavaScript has a prototype property. Moreover, each object
+ that is created can access its constructor's prototype property via the object's own __proto__ property.
+
+Let's start by looking at Object.prototype. In the Chrome console, try typing Object.prototype then
+ expand the object you get back. You can see that Object already has many properties on its prototype.
+

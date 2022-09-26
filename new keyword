@@ -1,0 +1,7 @@
+What does the new keyword do?
+When new is used, the following happens:
+
+An empty object is created,
+The keyword this inside of the constructor function refers to the empty object that was just created,
+A return this is added to the constructor function (this is why you don't need to explicitly return any value),
+An internal link is created between the object and the .prototype property on the constructor function. We can actually access this link on the object that is created: it is called __proto__, sometimes pronounced "dunder" (double underscore) proto.
